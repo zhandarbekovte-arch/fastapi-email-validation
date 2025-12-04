@@ -1,7 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, EmailStr
 
-app = FastAPI()
+
+app =  FastAPI()
+
 
 class User(BaseModel):
     name: str
